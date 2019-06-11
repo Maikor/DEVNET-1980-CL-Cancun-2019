@@ -34,7 +34,7 @@ root@cisco-desktop:/go/src/github.com# cd /go/src/github.com/ios-xr/telemetry-go
 root@cisco-desktop:/go/src/github.com/ios-xr/telemetry-go-collector# ls
 Dialout-collector-howto.md  bin   mdt_grpc_dialin   telemetry			telemetry_dialout_collector
 README.md		    docs  mdt_grpc_dialout  telemetry_dialin_collector
-root@cisco-desktop:~# go get -u github.com/golang/protobuf/protoc-gen-go**
+root@cisco-desktop:~# go get -u github.com/golang/protobuf/protoc-gen-go
 root@cisco-desktop:~#
 root@cisco-desktop:~# go get -u google.golang.org/grpc
 root@cisco-desktop:~#
