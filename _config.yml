@@ -168,6 +168,7 @@ defaults:
       share: true
       related: true
       position: "top"
+      breadcrumbs: false
 
 
 # Outputting
