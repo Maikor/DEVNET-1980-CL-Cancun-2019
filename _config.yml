@@ -12,9 +12,9 @@ title_short              : "DEVWKS-1980"
 title_separator          : "|"
 name                     : &name "Cisco Systems Inc"
 description              : &description "Welcome to the Cisco Live Europe 2019 Lab (LTRSPG-2414) for IOS-XR programmability!"
-url                      : "https://iosxr-lab-ciscolive.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://xr-dev.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-gh_repo                  : "https://github.com/iosxr-lab-ciscolive/LTRSPG-2414-cleur2019"
+gh_repo                  : "http://github.com/maikor/DEVNET-1980-CL-Cancun-2019/"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
