@@ -1,0 +1,6 @@
+main:
+  - title: "Workshop Instructions"
+    url: /instructions/
+
+  - title: "Search"
+    url: /search
