@@ -4,7 +4,7 @@ date: '2019-10-18 03:24 -0400'
 title: 'Step 2: Salt Prerequisites'
 author: Mike Korshunov
 excerpt: >-
-  Salt Concepts
+  Salt Concepts: get familiar with Salt proxy approach based on NAPALM and YAML syntax language. 
 tags:
   - iosxr
   - cisco
@@ -280,9 +280,7 @@ python load_replace.py ../sample_configs/new_good.conf
  for details.
 
 
-### Salt CLI execution 
-
-
+Next chapter:
 
 [Step 1]({{site.baseurl}}/wkinstructions/2019-10-17-step-1-salt-overview/){: .btn } or
  [Step 3]({{site.baseurl}}/wkinstructions/2019-10-19-step-3-salt-in-action/){: .btn }
