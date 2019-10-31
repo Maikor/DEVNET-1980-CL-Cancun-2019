@@ -77,7 +77,7 @@ Here’s an overview of how it works:
     Salt Minion on completion registers the success or failure of that operation on the event bus.
 * Salt Beacons can also register their events on the event bus.
     	
-    start a process if it is stopped or send an alert to Slack.
+* Start a process if it is stopped or send an alert to Slack.
 
 
 ## Orchestration
@@ -161,7 +161,6 @@ from Git, modifying if necessary, pushing out the configurations to devices, and
  * [https://eitr.tech/blog/2019/05/31/ansible-vs-salt.html](https://eitr.tech/blog/2019/05/31/ansible-vs-salt.html)
  * [https://www.upguard.com/articles/ansible-vs-salt](https://www.upguard.com/articles/ansible-vs-salt)
  * [https://medium.com/@anthonypjshaw/ansible-v-s-salt-saltstack-v-s-stackstorm-3d8f57149368](https://medium.com/@anthonypjshaw/ansible-v-s-salt-saltstack-v-s-stackstorm-3d8f57149368)
- * []()
 
 Proceed to the [Second Step]({{site.baseurl}}/wkinstructions/2019-10-18-step-2-salt-concepts/){: .btn }
 
