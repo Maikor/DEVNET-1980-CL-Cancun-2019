@@ -143,9 +143,12 @@ f.close()
 
 ### Start Salt on your Laptop in a Docker container
 
-We will be running Salt in a Docker container. 
+We will be running Salt in a Docker container. First command to pull the image and the second one to run the container.
 ```
-docker run -it --rm --name salty mkorshun/salt-ubuntu bash
+docker pull maikor/salt-ubuntu
+
+
+docker run -it --rm --name salty maikor/salt-ubuntu bash
 
 ```
 
