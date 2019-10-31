@@ -1,14 +1,14 @@
 ---
 published: true
 date: '2019-10-18 03:24 -0400'
-title: 'Step 2: Salt Prerequisites'
+title: 'Step 2: Salt Concepts'
 author: Mike Korshunov
 excerpt: >-
   Salt Concepts: get familiar with Salt proxy approach based on NAPALM and YAML syntax language. 
 tags:
   - iosxr
   - cisco
-  - salt
+  - Salt
   - lab
 ---
 
@@ -21,29 +21,40 @@ of components for network elements abstraction.
 ## Salt Vocabulary
 
 Salt was born as a distributed remote execution system used to execute commands and query data on remote nodes,
- or “minions”, either individually or by arbitrary selection criteria, or “targeting”.
+ or `minions`, either individually or by arbitrary selection criteria, or `targeting`.
+ 
 Salt has been extended to a configuration management system, capable of maintaining remote nodes in defined states 
 (for example, ensuring that specific packages are installed and specific services are running). There are lots of 
-components in Salt and I’m sure I’ve missed others!
-master, the server that runs the core services to communicate with Salt minions. It also contains the key store for 
+components in Salt!
+
+- `master`, the server that runs the core services to communicate with Salt minions. It also contains the key store for 
 encryption between the minions.
-minions, the agents that run a micro version of Salt for local execution and communication back to the master.
-engines, Salt Engines are long-running, external system processes that leverage Salt.
-states, or formulas, files that contain YAML and templated data to configure minions. The templating engine is also 
+
+- `minions`, the agents that run a micro version of Salt for local execution and communication back to the master.
+
+- `engines`, Salt Engines are long-running, external system processes that leverage Salt.
+
+- `states, or formulas`, files that contain YAML and templated data to configure minions. The templating engine is also 
 very flexible. It’s not limited to Jinja, but also chetah, genshi, mako (very important for those from a Puppet 
 background), wempy or even pure python.
+
+
 Minions (proxy or regular) can be targeted using grains, pillars or identifiers. There are other targeting plugins
  (and you can develop your own, based on something like a SQL query or a KVP store).
-grains, Salt comes with an interface to derive information about the underlying system. This is called the grains 
-interface, because it presents salt with grains of information. Grains are collected for the operating system,
+
+- `grains`, Salt comes with an interface to derive information about the underlying system. This is called the grains 
+interface, because it presents Salt with grains of information. Grains are collected for the operating system,
  domain name, IP address, kernel, OS type, memory, and many other system properties. The grains interface is made 
- available to Salt modules and components so that the right salt minion commands are automatically available on the 
+ available to Salt modules and components so that the right Salt minion commands are automatically available on the 
  right systems.
-pillars, A pillar is an interface for Salt designed to offer global values that can be distributed to minions. A 
+ 
+- `pillars`, A pillar is an interface for Salt designed to offer global values that can be distributed to minions. A 
 pillar is a free form resource of data (that can be either JSON, YAML or whatever you need), and can either be stored 
 in files, or externally. This is a unique property of Salt and allows integration with other systems where a shared 
 data store would be of value (e.g. an ITSM or asset register).
-For data fetching you can also return data from minions and store it in the salt mine to be used in other tasks like 
+
+
+For data fetching you can also return data from minions and store it in the Salt `mine` to be used in other tasks like 
 template-based state configuration. Unlike Ansible (which only supports YAML), this can be in a variety of formats.
 
 ## YAML
@@ -178,7 +189,7 @@ pip install napalm -U
 ```
 
 Beginning with release code named Carbon (2016.11), NAPALM is fully integrated in SaltStack -
- no additional modules required. For setup recommendations, please see napalm-salt. For 
+ no additional modules required. For setup recommendations, please see napalm-Salt. For 
  documentation and usage examples, you can check the modules documentation, starting from the 
  release notes and this blog post.
 
@@ -282,7 +293,7 @@ python load_replace.py ../sample_configs/new_good.conf
 
 Next chapter:
 
-[Step 1]({{site.baseurl}}/wkinstructions/2019-10-17-step-1-salt-overview/){: .btn } or
- [Step 3]({{site.baseurl}}/wkinstructions/2019-10-19-step-3-salt-in-action/){: .btn }
+[Step 1]({{site.baseurl}}/wkinstructions/2019-10-17-step-1-Salt-overview/){: .btn } or
+ [Step 3]({{site.baseurl}}/wkinstructions/2019-10-19-step-3-Salt-in-action/){: .btn }
 
 
