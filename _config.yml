@@ -19,9 +19,9 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 140
 comments:
-  provider               : "disqus" # false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "" # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
-    shortname            : "xrdocs" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
@@ -164,8 +164,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
+      comments: false
+      share: false
       related: true
       position: "top"
       breadcrumbs: false
