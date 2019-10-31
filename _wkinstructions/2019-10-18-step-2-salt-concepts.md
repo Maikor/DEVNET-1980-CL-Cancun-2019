@@ -40,7 +40,7 @@ background), wempy or even pure python.
 
 
 Minions (proxy or regular) can be targeted using grains, pillars or identifiers. There are other targeting plugins
- (and you can develop your own, based on something like a SQL query or a KVP store).
+ (and you can develop your own, based on something like a SQL query or a KV store).
 
 - `grains`, Salt comes with an interface to derive information about the underlying system. This is called the grains 
 interface, because it presents Salt with grains of information. Grains are collected for the operating system,
