@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 date: '2019-10-17 03:24 -0400'
 title: 'Step 1: Modern Configuration Management '
 author: Mike Korshunov
