@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 date: '2019-10-19 03:18 -0400'
 title: 'Step 3: Salt in Action'
 author: Mike Korshunov
