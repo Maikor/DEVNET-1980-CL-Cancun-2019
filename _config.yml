@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DEVWKS-1980 Get Salty with IOS-XR"
-title_short              : "DEVWKS-1980"
+title                    : "DEVNET-2043 Get Salty with IOS-XR"
+title_short              : "DEVNET-2043"
 title_separator          : "|"
 name                     : &name "Cisco Systems Inc"
-description              : &description "Welcome to the Cisco Live for IOS-XR programmability!"
+description              : &description "Welcome to the Cisco Live DevNet Classroom for dealing with Salt!"
 url                      : "https://xr-dev.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "http://github.com/maikor/DEVNET-1980-CL-Cancun-2019/"
