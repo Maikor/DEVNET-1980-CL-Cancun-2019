@@ -17,16 +17,16 @@ tags:
 
 We are ready to start some actions! Let's proceed! 💻📚
 
-## Establish connectivity to your POD
+## Make a reservation for the LAB
 
->Connect to your Pod first! Make sure your Anyconnect VPN connection to the Pod assigned to you is active. 
+>Connect to your lab first! Make sure your Anyconnect VPN connection to the Pod assigned to you is active. 
 >
-> If you haven't connected yet, check out the instructions to do so here: 
-><https://xr-dev.net/assets/CLC19-Mikhail%20Korshunov-IOS-XR-Programmability.pdf>
+> If you haven't connected yet, check out the reservation  here: 
+> <https://devnetsandbox.cisco.com/RM/Diagram/Index/123d1044-e5f0-425d-ba94-a7e95651211c>
 >
 >
 > Once you're connected, use the following instructions to connect to the individual nodes.
-> The instructions in the workshop will simply refer to the Name of the box to connect without
+> The instructions will simply refer to the Name of the box to connect without
 > repeating the connection details and credentials. So refer back to this list when you need it.
 >  
 >
@@ -414,7 +414,7 @@ salt r1 net.commit
 salt r1 net.rollback
 ```
 
-Congratulations with Salt workshop completion! Now you should have a understanding how Salt architecture looks like,
+Congratulations with Salt basic training completion! Now you should have a understanding how Salt architecture looks like,
 main pros and cons for Salt and you are ready to elaborate your further knowledge on Salt! 
  
 
@@ -425,3 +425,4 @@ main pros and cons for Salt and you are ready to elaborate your further knowledg
 - [https://xrdocs.io](https://xrdocs.io) 
 - [https://github.com/napalm-automation/napalm-salt](https://github.com/napalm-automation/napalm-salt)
 - [https://github.com/mirceaulinic/salt-sproxy](https://github.com/mirceaulinic/salt-sproxy), author Mircea Ulinic
+- [Join SaltStack Community](https://saltstackcommunity.herokuapp.com/)

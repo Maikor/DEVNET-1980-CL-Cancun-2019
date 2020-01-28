@@ -282,7 +282,6 @@ python load_replace.py ../sample_configs/new_good.conf
 * [Automating IXP Device Configurations with Ansible at the Euro-IX Forum](https://www.euro-ix.net/m/uploads/2015/10/26/euroix-berlin-v2.pdf) by Elisa Jasinska
 * [Network Automation with Salt and NAPALM at NANOG 68](https://www.nanog.org/sites/default/files/NANOG68%20Network%20Automation%20with%20Salt%20and%20NAPALM%20Mircea%20Ulinic%20Cloudflare%20(1).pdf); [video](https://www.youtube.com/watch?v=gV2918bH5_c); [recorded demo](https://www.youtube.com/watch?v=AqBk5fM7qZ0) by Mircea Ulinic
 
-
 ### NAPALM  Authors
 
  * David Barroso ([dbarrosop@dravetech.com](mailto:dbarrosop@dravetech.com))
@@ -294,6 +293,6 @@ python load_replace.py ../sample_configs/new_good.conf
 Next chapter:
 
 [Step 1]({{site.baseurl}}/wkinstructions/2019-10-17-step-1-Salt-overview/){: .btn } or
- [Step 3]({{site.baseurl}}/wkinstructions/2019-10-19-step-3-Salt-in-action/){: .btn }
+ [Step 3]({{site.baseurl}}/wkinstructions/2019-10-19-step-3-salt-in-action/){: .btn }
 
 
